@@ -1,0 +1,27 @@
+Namespace(add_source=True, beta=3.0, cut=False, dataname='cora', device='cuda:0', dropout=0.0, epochs=50, exp_lr=1e-05, exp_wd=1e-05, gamma=1, gpu=0, hid_dim=512, imp_lr=0.001, imp_wd=1e-05, knn=21, method='dopri5', n_layers=2, patience=20, seed=42, sigma=0.5, time=100.0, tol_scale=200, train=1, type='sys', v_input=1)
+./best/cora_best.pt
+[75.14771049 74.29837518 74.77843427 74.29837518 75.18463811 74.29837518
+ 75.11078287 75.11078287 75.07385524 75.14771049]
+
+Clustering result: ACC:74.84 $\pm$ 0.37 NMI:56.89 $\pm$ 0.39 ARI:52.64 $\pm$ 0.34 F1:70.50 $\pm$ 0.46
+
+Namespace(add_source=True, beta=7.0, cut=False, dataname='citeseer', device='cuda:0', dropout=0.0, epochs=50, exp_lr=1e-05, exp_wd=1e-05, gamma=1, gpu=0, hid_dim=512, imp_lr=0.001, imp_wd=1e-05, knn=150, method='dopri5', n_layers=2, patience=20, seed=42, sigma=0.5, time=160.0, tol_scale=200, train=1, type='sys', v_input=1)
+./best/citeseer_best.pt
+[69.58220619 69.55214908 69.55214908 69.55214908 69.55214908 69.55214908
+ 69.58220619 69.55214908 69.55214908 69.55214908]
+
+Clustering result: ACC:69.56 $\pm$ 0.01 NMI:44.29 $\pm$ 0.02 ARI:45.34 $\pm$ 0.00 F1:65.43 $\pm$ 0.04
+
+Namespace(add_source=True, beta=0.7, cut=False, dataname='bat', device='cuda:0', dropout=0.0, epochs=25, exp_lr=1e-05, exp_wd=1e-05, gamma=1, gpu=0, hid_dim=64, imp_lr=0.001, imp_wd=1e-05, knn=21, method='dopri5', n_layers=2, patience=20, seed=42, sigma=0.5, time=200.0, tol_scale=200, train=1, type='sys', v_input=1)
+./best/bat_best.pt
+[74.04580153 74.80916031 74.80916031 74.80916031 74.80916031 74.80916031
+ 74.80916031 74.80916031 74.80916031 74.80916031]
+
+Clustering result: ACC:74.73 $\pm$ 0.23 NMI:52.63 $\pm$ 0.11 ARI:47.65 $\pm$ 0.18 F1:74.49 $\pm$ 0.26
+
+Namespace(add_source=True, beta=6.0, cut=False, dataname='eat', device='cuda:0', dropout=0.0, epochs=30, exp_lr=1e-05, exp_wd=1e-05, gamma=1.5, gpu=0, hid_dim=512, imp_lr=0.001, imp_wd=1e-05, knn=155, method='dopri5', n_layers=2, patience=20, seed=42, sigma=0.5, time=15.0, tol_scale=200, train=1, type='sys', v_input=1)
+./best/eat_best.pt
+[51.87969925 51.87969925 51.87969925 51.87969925 51.87969925 51.87969925
+ 51.87969925 51.87969925 51.87969925 51.87969925]
+
+Clustering result: ACC:51.88 $\pm$ 0.00 NMI:32.44 $\pm$ 0.19 ARI:23.87 $\pm$ 0.08 F1:47.63 $\pm$ 0.02
